@@ -1,0 +1,57 @@
+.createTask {
+	min-width: 300px;
+	/* min-height: 500px; */
+	max-width: 500px;
+	max-height: 500px;
+	background: white;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+.createTaskHeader {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	/* font-size: 1.2rem; */
+}
+
+.createTaskHeader a {
+	color: black;
+	outline: none;
+}
+
+.createTaskBody {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.createTaskBody input {
+	min-height: 50px;
+	padding: 1rem .5rem;
+	outline: none;
+	background: whitesmoke;
+	border: none;
+	border-radius: 1rem;
+}
+
+.createTaskBody textarea {
+	resize: none;
+	min-width: 100%;
+	padding: 1rem .5rem;
+	outline: none;
+	background: whitesmoke;
+	border: none;
+	border-radius: 1rem;
+	min-height: 250px;
+}
+
+.createTaskBtn {
+	min-height: 50px;
+	border-radius: 1rem;
+	background: whitesmoke;
+}
+
+.createTaskBtn:hover {
+	transform: scale(1.05);
+}
